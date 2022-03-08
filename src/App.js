@@ -53,7 +53,7 @@ function App() {
 
         
         <button className='Button' onClick={convert}>
-          Convert to:
+          Convert to
         </button>
         </div>
       
