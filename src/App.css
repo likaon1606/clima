@@ -10,23 +10,20 @@ body{
 ul{
   list-style: none;
   display: block;
-  margin: 0 35% 0 0;
+  margin: 0 25% 0 0;
   margin-top: 2%;
   margin-left: 24%;
-  padding: 3% 0 2%;
-  text-align: left;
+  padding: 6% 0 30%;
   border-radius: 10px;
   box-shadow: 10px 10px 15px;
 }
 li{
   font-size: 220%;
-  margin-top: 10%;
   color: black;
+  text-align: left;
 }
 .Button{
   display: flex;
- margin-left: 650px;
- margin-top: -50px;
  font-size: 40px;
  font-weight: bolder;
  border-radius: 10px;
@@ -44,16 +41,20 @@ li{
  
  ul{
    font-size: 70%;
+   margin:15%;
  } 
  li{
-   margin-top: 40px;
+   margin-top: 90px;
+   padding-left: 40px;
+   margin-right: -900px;
+   padding: -90px;
  }
 .Button{
   font-size: 90%;
-  margin-left: 50%;;
-  margin-top: -45px;
-  color: black;
-  background: pink;
+  margin-left: 40%;
+  margin-top: -49%;
+  color: pink;
+  background: black;
   padding: 10px;
 }
 }
