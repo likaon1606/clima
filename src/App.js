@@ -36,11 +36,10 @@ function App() {
     setTemp(value);
   };
   return (
-    <div className="App">
-      <h1>Weather</h1>
-      
-      <div>
-      <ul  className='Yannet'>
+    <div className="App">      
+      <div>    
+      <ul  className='contents'>
+      <h1>By <br/>Ariel <br/>Fuentes <br/>García</h1>
         <li><b>Country: </b>{weather.sys?.country}</li>
         <li><b>City: </b>{weather.main?.name}</li>
         <li><b>Wind Speed: </b>{weather.wind?.speed}</li>
@@ -51,10 +50,13 @@ function App() {
           {isCelsius ? "  °F" : " °C"}</li>
         </ul>
 
-        
+        <div>
         <button className='Button' onClick={convert}>
           Convert to
+          <br/>
+            C°/F°
         </button>
+        </div>
         </div>
       
     </div>
