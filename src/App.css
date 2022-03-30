@@ -75,8 +75,27 @@ li{
  -webkit-text-stroke: 1px black;
 }
 
+/*---------CEL------*/
 
-
-@media (prefers-reduced-motion: no-preference) {
- 
+@media screen and (min-width: 762px){
+.App{
+  margin-left: -170px;
+}  
+ul{
+ width: 600px;
 }
+li{
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.Button{
+  margin-left: 400px;
+  font-size: 20px;
+  margin-top: -70px;
+}
+h1{
+  font-size: 20px;
+  text-shadow: none;
+}
+}  
